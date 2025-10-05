@@ -1,16 +1,37 @@
-# React + Vite
+# To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur la **To-Do List App** !  
+Cette application vous permet de créer, suivre et gérer vos tâches facilement, le tout en ligne.
 
-Currently, two official plugins are available:
+## 🌐 Lien de l'application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vous pouvez accéder à l'application depuis n'importe où via le lien suivant :  
+[https://g-list-ae4e6.firebaseapp.com/](https://g-list-ae4e6.firebaseapp.com/)
 
-## React Compiler
+## ⚡ Fonctionnalités
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Ajouter des tâches
+- Marquer des tâches comme complétées
+- Supprimer des tâches
+- Stockage en temps réel grâce à Firebase Firestore
 
-## Expanding the ESLint configuration
+## 💻 Technologies utilisées
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** : Pour construire l'interface utilisateur dynamique  
+- **Firebase** : Pour l'authentification, la base de données Firestore et le hosting  
+- **Vite** : Pour le build et le bundling rapide  
+- **GitHub Actions** : Pour le déploiement automatique sur Firebase Hosting  
+
+## 📂 Structure du projet
+
+/src -> Code source de l'application React
+/public -> Fichiers statiques (index.html, 404.html, etc.)
+.firebase.json -> Configuration Firebase Hosting
+.firebaserc -> Projet Firebase
+
+## 🚀 Déploiement
+
+Le projet est automatiquement déployé sur Firebase Hosting via GitHub Actions à chaque push sur la branche `main`.  
+Le site est accessible immédiatement à l'URL indiquée ci-dessus.
+
+https://g-list-ae4e6.firebaseapp.com/
